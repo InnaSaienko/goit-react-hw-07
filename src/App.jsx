@@ -1,7 +1,9 @@
-import './App.module.css'
+import './App.module.css';
+import {useDispatch, useSelector} from "react-redux";
 
-function App() {
-
+const App = () => {
+const dispatch = useDispatch();
+const contacts = useSelector();
   return (
     <>
 
