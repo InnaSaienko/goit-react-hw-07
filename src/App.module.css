@@ -7,8 +7,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap: 20px;
   min-height: 100vh;
   border: 2px solid violet;
   padding: 20px;
