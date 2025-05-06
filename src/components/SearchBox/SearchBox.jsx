@@ -7,7 +7,6 @@ function SearchBox() {
     const dispatch = useDispatch();
 
     const newFilter = (filter) => {
-        console.log("newFilter: ", filter);
         dispatch(changeFilter(filter));
     };
     return (
